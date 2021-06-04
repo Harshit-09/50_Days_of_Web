@@ -9,7 +9,7 @@ function blurring() {
     load++
 
     if(load>99) {
-        clearInterval()
+        clearInterval(int)
     }
 
     loadText.innerText = `${load}%`
@@ -18,5 +18,5 @@ function blurring() {
 }
 
 const scale = (num, in_min, in_max, out_min, out_max) => {
-    return ((num - in_num) * (out_max - out_min)) / (in_max - in_min) + out_min
+    return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
 }
