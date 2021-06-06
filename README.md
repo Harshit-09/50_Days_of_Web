@@ -8,4 +8,10 @@ Day - 2 :- https://harshit-09.github.io/50_Days_of_Web/Day-2/index.html   => ("P
 
 Day - 3 :- https://harshit-09.github.io/50_Days_of_Web/Day-3/index.html   => ("Rotation Navigation").
 
-Day - 4 :- https://harshit-09.github.io/50_Days_of_Web/Day-4/index.html   => (Hidden Search").
+Day - 4 :- https://harshit-09.github.io/50_Days_of_Web/Day-4/index.html   => ("Hidden Search").
+
+Day - 5 :- https://harshit-09.github.io/50_Days_of_Web/Day-5/index.html   => ("Blurry Loading").
+
+Day - 6 :- https://harshit-09.github.io/50_Days_of_Web/Day-6/index.html   => ("Scroll Animation").
+
+Day -7 :- https://harshit-09.github.io/50_Days_of_Web/Day-7/index.html    => ("Split Landing Page").
