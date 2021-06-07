@@ -16,4 +16,4 @@ Day - 6 :- https://harshit-09.github.io/50_Days_of_Web/Day-6/index.html   => ("S
 
 Day - 7 :- https://harshit-09.github.io/50_Days_of_Web/Day-7/index.html   => ("Split Landing Page").
 
-Day - 8 :- https://harshit-09.github.io/50_Days_of_Web/Day-8/index.html   => ("Floating Login Page").
+Day - 8 :- https://harshit-09.github.io/50_Days_of_Web/Day-8/index.html   => ("Form Input Wave / Login Page").
