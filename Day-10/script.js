@@ -13,7 +13,7 @@ async function generateJoke() {
             Accept: 'application/json',
         },
     }
-    const res = await fetch('https:icanhazdadjoke.com', config)
+    const res = await fetch('https://icanhazdadjoke.com', config)
     const data = await res.json()
     jokeEl.innerHTML = data.joke
 }
