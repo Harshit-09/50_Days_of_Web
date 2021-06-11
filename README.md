@@ -21,3 +21,5 @@ Day - 8 :- https://harshit-09.github.io/50_Days_of_Web/Day-8/index.html   => ("F
 Day - 9 :- https://harshit-09.github.io/50_Days_of_Web/Day-9/index.html   => ("Sound Board").
 
 Day - 10 :- https://harshit-09.github.io/50_Days_of_Web/Day-10/index.html   => ("Dad's Joke").
+
+Day - 11 :- https://harshit-09.github.io/50_Days_of_Web/Day-11/index.html   => ("Event Key Code").
