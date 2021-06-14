@@ -25,3 +25,5 @@ Day - 10 :- https://harshit-09.github.io/50_Days_of_Web/Day-10/index.html   => (
 Day - 11 :- https://harshit-09.github.io/50_Days_of_Web/Day-11/index.html   => ("Event Key Code").
 
 Day - 12 :- https://harshit-09.github.io/50_Days_of_Web/Day-12/index.html   => ("FAQ").
+
+Day - 13 :- https://harshit-09.github.io/50_Days_of_Web/Day-13/index.html   => ("Random Choices").
