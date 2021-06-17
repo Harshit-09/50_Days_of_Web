@@ -27,3 +27,5 @@ Day - 11 :- https://harshit-09.github.io/50_Days_of_Web/Day-11/index.html   => (
 Day - 12 :- https://harshit-09.github.io/50_Days_of_Web/Day-12/index.html   => ("FAQ").
 
 Day - 13 :- https://harshit-09.github.io/50_Days_of_Web/Day-13/index.html   => ("Random Choices").
+
+Day - 14 :- https://harshit-09.github.io/50_Days_of_Web/Day-14/index.html   => ("Animated Navigation").
