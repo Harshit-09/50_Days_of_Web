@@ -31,3 +31,6 @@ Day - 13 :- https://harshit-09.github.io/50_Days_of_Web/Day-13/index.html   => (
 Day - 14 :- https://harshit-09.github.io/50_Days_of_Web/Day-14/index.html   => ("Animated Navigation").
 
 Day - 15 :- https://harshit-09.github.io/50_Days_of_Web/Day-15/index.html   => ("Increment Counter").
+
+Day - 16 :- https://harshit-09.github.io/50_Days_of_Web/Day-16/index.html   => ("Water Counter").
+
