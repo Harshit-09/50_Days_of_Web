@@ -36,3 +36,5 @@ Day - 16 :- https://harshit-09.github.io/50_Days_of_Web/Day-16/index.html   => (
 
 Day - 17 :- https://harshit-09.github.io/50_Days_of_Web/Day-17/index.html   => ("Movie App").
 
+Day - 18 :- https://harshit-09.github.io/50_Days_of_Web/Day-18/index.html   => ("Background Slider").
+
