@@ -7,7 +7,7 @@ let activeSlide = 0
 
 rightBtn.addEventListener('click', () => {
     activeSlide++
-    if(activeSlide >slides.length -1) {
+    if(activeSlide >slides.length - 1) {
         activeSlide = 0
     }
 
@@ -34,7 +34,7 @@ function setBgToBody() {
 }
 
 function setActiveSlide() {
-    slides.forEach(slides => slides.classList.remove('active'))
+    slides.forEach(slide => slide.classList.remove('active'))
 
     slides[activeSlide].classList.add('active')
 }
