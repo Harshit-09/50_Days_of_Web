@@ -10,7 +10,7 @@ const days = [
   "Monday",
   "Tuesday",
   "Wednesday",
-  "Thrusday",
+  "Thursday",
   "Friday",
   "Saturday",
 ];
@@ -30,7 +30,7 @@ const months = [
   "Dec",
 ];
 
-toggle.addEventListner("click", (e) => {
+toggle.addEventListener("click", (e) => {
   const html = document.querySelector("html");
   if (html.classList.contains("dark")) {
     html.classList.remove("dark");
@@ -51,13 +51,14 @@ function setTime() {
   const minutes = time.getMinutes();
   const seconds = time.getSeconds();
   const ampm = hours >= 12 ? "PM" : "AM";
+
   hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(
     hoursForClock,
     0,
     11,
     0,
     360
-  )}deg);`;
+  )}deg)`;
 
   minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(
     minutes,
@@ -65,15 +66,15 @@ function setTime() {
     59,
     0,
     360
-  )}deg);`;
+  )}deg)`;
 
   secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(
     seconds,
     0,
-    11,
+    59,
     0,
     360
-  )}deg);`;
+  )}deg)`;
 
   timeEl.innerHTML = `${hoursForClock}:${
     minutes < 10 ? `0${minutes}` : minutes
