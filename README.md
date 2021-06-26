@@ -40,4 +40,4 @@ Day - 18 :- https://harshit-09.github.io/50_Days_of_Web/Day-18/index.html   => (
 
 Day - 19 :- https://harshit-09.github.io/50_Days_of_Web/Day-19/index.html   => ("Clock").
 
-
+Day - 20 :- https://harshit-09.github.io/50_Days_of_Web/Day-20/index.html   => ("Ripple Effect").
