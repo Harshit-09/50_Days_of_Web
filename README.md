@@ -42,4 +42,4 @@ Day - 19 :- https://harshit-09.github.io/50_Days_of_Web/Day-19/index.html   => (
 
 Day - 20 :- https://harshit-09.github.io/50_Days_of_Web/Day-20/index.html   => ("Ripple Effect").
 
-Day - 21 :- https://harshit-09.github.io/50_Days_of_Web/Day-21/index.html   => ("Ripple Effect").
+Day - 21 :- https://harshit-09.github.io/50_Days_of_Web/Day-21/index.html   => ("Drag & Drop").
