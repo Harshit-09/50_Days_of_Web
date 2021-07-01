@@ -47,3 +47,6 @@ Day - 21 :- https://harshit-09.github.io/50_Days_of_Web/Day-21/index.html   => (
 Day - 22 :- https://harshit-09.github.io/50_Days_of_Web/Day-22/index.html   => ("Drawing App").
 
 Day - 23 :- https://harshit-09.github.io/50_Days_of_Web/Day-23/index.html   => ("Kinetic Loader").
+
+Day - 24 :- https://harshit-09.github.io/50_Days_of_Web/Day-24/index.html   => ("Kinetic Loader").
+
