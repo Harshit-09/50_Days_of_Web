@@ -1,89 +1,87 @@
-const hourEl = document.querySelector(".hour");
-const minuteEl = document.querySelector(".minute");
-const secondEl = document.querySelector(".second");
-const timeEl = document.querySelector(".time");
-const dateEl = document.querySelector(".date");
-const toggle = document.querySelector(".toggle");
+const canvas = document.getElementById("canvas");
+const increaseBtn = document.getElementById("increase");
+const decreaseBtn = document.getElementById("decrease");
+const sizeEL = document.getElementById("size");
+const colorEl = document.getElementById("color");
+const clearEl = document.getElementById("clear");
 
-const days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
-const months = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
-];
+const ctx = canvas.getContext("2d");
 
-toggle.addEventListener("click", (e) => {
-  const html = document.querySelector("html");
-  if (html.classList.contains("dark")) {
-    html.classList.remove("dark");
-    e.target.innerHTML = "Dark mode";
-  } else {
-    html.classList.add("dark");
-    e.target.innerHTML = "Light mode";
+let size = 10;
+let isPressed = false;
+let color = "black";
+let x;
+let y;
+
+canvas.addEventListener("mousedown", (e) => {
+  isPressed = true;
+
+  x = e.offsetX;
+  y = e.offsetY;
+});
+
+canvas.addEventListener("mouseup", (e) => {
+  isPressed = false;
+
+  x = undefined;
+  y = undefined;
+});
+
+canvas.addEventListener("mousemove", (e) => {
+  if (isPressed) {
+    const x2 = e.offsetX;
+    const y2 = e.offsetY;
+
+    drawCircle(x2, y2);
+    drawLine(x, y, x2, y2);
+
+    x = x2;
+    y = y2;
   }
 });
 
-function setTime() {
-  const time = new Date();
-  const month = time.getMonth();
-  const day = time.getDay();
-  const date = time.getDate();
-  const hours = time.getHours();
-  const hoursForClock = hours % 12;
-  const minutes = time.getMinutes();
-  const seconds = time.getSeconds();
-  const ampm = hours >= 12 ? "PM" : "AM";
-
-  hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(
-    hoursForClock,
-    0,
-    11,
-    0,
-    360
-  )}deg)`;
-  minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(
-    minutes,
-    0,
-    59,
-    0,
-    360
-  )}deg)`;
-  secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(
-    seconds,
-    0,
-    59,
-    0,
-    360
-  )}deg)`;
-
-  timeEl.innerHTML = `${hoursForClock}:${
-    minutes < 10 ? `0${minutes}` : minutes
-  } ${ampm}`;
-  dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`;
+function drawCircle(x, y) {
+  ctx.beginPath();
+  ctx.arc(x, y, size, 0, Math.PI * 2);
+  ctx.fillStyle = color;
+  ctx.fill();
 }
 
-// StackOverflow https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
-const scale = (num, in_min, in_max, out_min, out_max) => {
-  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
-};
+function drawLine(x1, y1, x2, y2) {
+  ctx.beginPath();
+  ctx.moveTo(x1, y1);
+  ctx.lineTo(x2, y2);
+  ctx.strokeStyle = color;
+  ctx.lineWidth = size * 2;
+  ctx.stroke();
+}
 
-setTime();
+function updateSizeOnScreen() {
+  sizeEL.innerText = size;
+}
 
-setInterval(setTime, 1000);
+increaseBtn.addEventListener("click", () => {
+  size += 5;
+
+  if (size > 50) {
+    size = 50;
+  }
+
+  updateSizeOnScreen();
+});
+
+decreaseBtn.addEventListener("click", () => {
+  size -= 5;
+
+  if (size < 5) {
+    size = 5;
+  }
+
+  updateSizeOnScreen();
+});
+
+colorEl.addEventListener("change", (e) => (color = e.target.value));
+
+clearEl.addEventListener("click", () =>
+  ctx.clearRect(0, 0, canvas.width, canvas.height)
+);
