@@ -51,3 +51,5 @@ Day - 23 :- https://harshit-09.github.io/50_Days_of_Web/Day-23/index.html   => (
 Day - 24 :- https://harshit-09.github.io/50_Days_of_Web/Day-24/index.html   => ("Kinetic Loader").
 
 Day - 25 :- https://harshit-09.github.io/50_Days_of_Web/Day-25/index.html   => ("Kinetic Loader").
+
+Day - 26 :- https://harshit-09.github.io/50_Days_of_Web/Day-26/index.html   => ("Vertical Slider").
