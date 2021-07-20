@@ -48,8 +48,10 @@ Day - 22 :- https://harshit-09.github.io/50_Days_of_Web/Day-22/index.html   => (
 
 Day - 23 :- https://harshit-09.github.io/50_Days_of_Web/Day-23/index.html   => ("Kinetic Loader").
 
-Day - 24 :- https://harshit-09.github.io/50_Days_of_Web/Day-24/index.html   => ("Kinetic Loader").
+Day - 24 :- https://harshit-09.github.io/50_Days_of_Web/Day-24/index.html   => ("Content Placeholder").
 
-Day - 25 :- https://harshit-09.github.io/50_Days_of_Web/Day-25/index.html   => ("Kinetic Loader").
+Day - 25 :- https://harshit-09.github.io/50_Days_of_Web/Day-25/index.html   => ("Sticky Navigation").
 
 Day - 26 :- https://harshit-09.github.io/50_Days_of_Web/Day-26/index.html   => ("Vertical Slider").
+
+Day - 27 :- https://harshit-09.github.io/50_Days_of_Web/Day-27/index.html   => ("Notification Toster").
