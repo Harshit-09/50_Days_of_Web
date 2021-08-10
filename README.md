@@ -55,3 +55,5 @@ Day - 25 :- https://harshit-09.github.io/50_Days_of_Web/Day-25/index.html   => (
 Day - 26 :- https://harshit-09.github.io/50_Days_of_Web/Day-26/index.html   => ("Vertical Slider").
 
 Day - 27 :- https://harshit-09.github.io/50_Days_of_Web/Day-27/index.html   => ("Notification Toster").
+
+Day - 27 :- https://harshit-09.github.io/50_Days_of_Web/Day-28/index.html   => ("GitHub Profile Finder").
