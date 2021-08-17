@@ -60,3 +60,5 @@ Day - 28 :- https://harshit-09.github.io/50_Days_of_Web/Day-28/index.html   => (
 
 Day - 29 :- https://harshit-09.github.io/50_Days_of_Web/Day-29/index.html   => ("Double Heart Click").
 
+Day - 30 :- https://harshit-09.github.io/50_Days_of_Web/Day-30/index.html   => ("Auto Text Fill").
+
